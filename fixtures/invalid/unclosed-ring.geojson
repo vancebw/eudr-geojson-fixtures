@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-unclosed-ring",
+  "metadata": {
+    "note": "Synthetic data. The last coordinate differs from the first, so the ring is not closed.",
+    "expected_finding": "ring not closed"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0124",
+        "commodity": "cocoa",
+        "area_ha": 25.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.982275, 6.348210],
+            [-1.977725, 6.348210],
+            [-1.977725, 6.352710],
+            [-1.982275, 6.352710]
+          ]
+        ]
+      }
+    }
+  ]
+}
