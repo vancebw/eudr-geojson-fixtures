@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic data. The document is truncated: the Placemark, Document, and kml elements are never closed, so a strict parser must reject it instead of guessing. -->
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Plot GH-AH-0121</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -1.982275,6.348210 -1.977725,6.348210 -1.977725,6.352710 -1.982275,6.352710
