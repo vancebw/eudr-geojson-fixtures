@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-reversed-lat-lon",
+  "metadata": {
+    "note": "Synthetic data. Coordinates are stored latitude-first: [6.352104, -1.980012] instead of [-1.980012, 6.352104]. Both values pass numeric range checks, but the point lands in the wrong country. GeoJSON (RFC 7946) requires longitude before latitude.",
+    "expected_finding": "coordinate order conflict / country mismatch"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0122",
+        "commodity": "cocoa",
+        "area_ha": 2.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.352104, -1.980012]
+      }
+    }
+  ]
+}
