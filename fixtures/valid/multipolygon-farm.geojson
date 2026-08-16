@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-valid-multipolygon-farm",
+  "metadata": {
+    "note": "Synthetic data. One farm recorded as two discontiguous production parts in a single MultiPolygon feature.",
+    "commodity": "cocoa",
+    "country": "CI"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "CI-HP-0234",
+        "commodity": "cocoa",
+        "area_ha": 24.6
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-5.312100, 7.203200],
+              [-5.308900, 7.203200],
+              [-5.308900, 7.206400],
+              [-5.312100, 7.206400],
+              [-5.312100, 7.203200]
+            ]
+          ],
+          [
+            [
+              [-5.306100, 7.204200],
+              [-5.302900, 7.204200],
+              [-5.302900, 7.207400],
+              [-5.306100, 7.207400],
+              [-5.306100, 7.204200]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
