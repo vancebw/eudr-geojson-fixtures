@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-latitude-out-of-range",
+  "metadata": {
+    "note": "Synthetic data. The latitude value 200.123456 exceeds the valid range of -90 to 90.",
+    "expected_finding": "coordinate out of range"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "VN-DL-0009",
+        "commodity": "coffee",
+        "area_ha": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.891234, 200.123456]
+      }
+    }
+  ]
+}
