@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-valid-point-under-4ha",
+  "metadata": {
+    "note": "Synthetic data. Coffee plot of 1.2 ha: a single point is allowed for plots up to 4 hectares.",
+    "commodity": "coffee",
+    "country": "VN"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "VN-DL-0007",
+        "commodity": "coffee",
+        "area_ha": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.893412, 11.943278]
+      }
+    }
+  ]
+}
