@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-feature-without-geometry",
+  "metadata": {
+    "note": "Synthetic data. A GeoJSON feature may legally carry a null geometry, but it cannot represent a production plot.",
+    "expected_finding": "feature without geometry"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0126"
+      },
+      "geometry": null
+    }
+  ]
+}
