@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-self-intersecting-polygon",
+  "metadata": {
+    "note": "Synthetic data. The vertex order produces a bow-tie: segment 1-2 crosses segment 3-4. A structurally closed ring can still be geometrically invalid.",
+    "expected_finding": "self-intersection"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0123",
+        "commodity": "cocoa",
+        "area_ha": 25.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.982275, 6.348210],
+            [-1.977725, 6.352710],
+            [-1.977725, 6.348210],
+            [-1.982275, 6.352710],
+            [-1.982275, 6.348210]
+          ]
+        ]
+      }
+    }
+  ]
+}
