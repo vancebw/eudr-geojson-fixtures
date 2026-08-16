@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-duplicate-ring",
+  "metadata": {
+    "note": "Synthetic data. The interior ring is identical to the outer ring, which describes zero area and is not a valid hole.",
+    "expected_finding": "invalid ring / zero area"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0125",
+        "commodity": "cocoa",
+        "area_ha": 25.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.982275, 6.348210],
+            [-1.977725, 6.348210],
+            [-1.977725, 6.352710],
+            [-1.982275, 6.352710],
+            [-1.982275, 6.348210]
+          ],
+          [
+            [-1.982275, 6.348210],
+            [-1.977725, 6.348210],
+            [-1.977725, 6.352710],
+            [-1.982275, 6.352710],
+            [-1.982275, 6.348210]
+          ]
+        ]
+      }
+    }
+  ]
+}
