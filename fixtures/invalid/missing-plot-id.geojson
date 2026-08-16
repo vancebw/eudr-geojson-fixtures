@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-invalid-missing-plot-id",
+  "metadata": {
+    "note": "Synthetic data. The geometry is valid but the feature has no stable plot_id property, so it cannot be reliably connected to a producer, supplier, or shipment.",
+    "expected_finding": "missing stable plot identifier"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.980012, 6.352104]
+      }
+    }
+  ]
+}
