@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "eudr-fixture-valid-polygon-over-4ha",
+  "metadata": {
+    "note": "Synthetic data. Cocoa plot of roughly 25 ha (about 500 m per side): plots above 4 hectares require a polygon.",
+    "commodity": "cocoa",
+    "country": "GH"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "GH-AH-0121",
+        "commodity": "cocoa",
+        "area_ha": 25.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.982275, 6.348210],
+            [-1.977725, 6.348210],
+            [-1.977725, 6.352710],
+            [-1.982275, 6.352710],
+            [-1.982275, 6.348210]
+          ]
+        ]
+      }
+    }
+  ]
+}
